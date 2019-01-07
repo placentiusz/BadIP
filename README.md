@@ -4,6 +4,7 @@ Bad IP list  and location on world map  in R
 List of IP addresses from which bad peoples try to attack my mail server.  
 Map file was generated using R and this simple code:
 
+'''R
 library(rworldmap)
 library(IPtoCountry)
 library(varhandle)
@@ -18,3 +19,4 @@ ip_geo$lat <- unfactor(ip_geo$lat)
 newmap <- getMap(resolution = "low")
 plot(newmap)
 points(ip_geo$long, ip_geo$lat, col = "red", cex = .5)
+'''
