@@ -21,4 +21,4 @@ plot(newmap)
 points(ip_geo$long, ip_geo$lat, col = "red", cex = .5)
 ```
 
-[[https://github.com/placentiusz/BadIP/blob/master/IPAttackWorldMap.png|alt=AttackMap]]
+[[https://github.com/placentiusz/BadIP/blob/master/IPAttackWorldMap.png]]
